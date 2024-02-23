@@ -61,3 +61,11 @@ h4 {
 #title {
   font-weight: 400;
 }
+@media screen and (max-width: 450px) {
+  #imgav {
+    padding-left: 25px;
+  }
+  h1 {
+    padding-left: 40px;
+  }
+}
