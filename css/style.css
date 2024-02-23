@@ -43,7 +43,7 @@ footer {
 }
 .dx2 {
   display: flex;
-  gap: 10px;
+  opacity: 0.5;
 
   align-items: center;
 }

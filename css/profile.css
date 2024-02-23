@@ -14,6 +14,7 @@ nav {
 main {
   display: flex;
   justify-content: space-evenly;
+  padding-bottom: 40px;
 }
 hr {
   margin: 0;
@@ -52,9 +53,9 @@ h4 {
 .p3 {
   font-size: medium;
 }
-#Input {
-}
+
 #disabledTextInput {
+  width: 100%;
   border-radius: 0%;
   background-color: #666666;
 }
@@ -68,4 +69,16 @@ h4 {
   h1 {
     padding-left: 40px;
   }
+  #dx {
+    margin-left: 10px;
+  }
+}
+#disabledTextInput2 {
+  font-size: 12px;
+  border-radius: 0%;
+  background-color: #666666;
+  width: 90px;
+}
+body {
+  background-color: black;
 }
