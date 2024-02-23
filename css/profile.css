@@ -1,0 +1,63 @@
+nav {
+  background: rgb(33, 37, 41);
+  background: linear-gradient(0deg, rgba(33, 37, 41, 1) 0%, rgba(0, 0, 0, 1) 53%);
+}
+.box {
+  display: flex;
+  width: 500px;
+
+  padding-top: 3rem;
+}
+.titolo {
+  width: 450px;
+}
+main {
+  display: flex;
+  justify-content: space-evenly;
+}
+hr {
+  margin: 0;
+}
+.text1 {
+  background-color: #666666;
+}
+#btn2 {
+  background-color: black;
+  width: 90px;
+  font-size: small;
+  background-color: transparent;
+  border-radius: 0px;
+}
+.bottoni {
+  display: flex;
+  justify-content: space-around;
+}
+
+#botton1 {
+  border-radius: 0px;
+  width: 66px;
+  background-color: white;
+}
+#botton {
+  border-radius: 0px;
+}
+.p1 {
+  margin-top: 6px;
+  margin-bottom: -0;
+}
+h4 {
+  font-size: 400;
+  size: 18px;
+}
+.p3 {
+  font-size: medium;
+}
+#Input {
+}
+#disabledTextInput {
+  border-radius: 0%;
+  background-color: #666666;
+}
+#title {
+  font-weight: 400;
+}
