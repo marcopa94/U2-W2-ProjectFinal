@@ -1,45 +1,16 @@
+/* :root {
+  --bs-nav-link-color: white;
+} */
 .dx {
   display: flex;
   gap: 20px;
 
   align-items: center;
 }
-#input {
-  border: 1px solid white;
-  width: 300px;
-}
-.hero {
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
-  gap: 30px;
-}
-#btn1 {
-  border: 1px solid white;
-  color: white;
-  background-color: black;
-}
-#card {
-  flex-wrap: wrap;
-}
 
-.bg-body-tertiary {
-  --bs-bg-opacity: 0;
-}
-footer {
-  width: 60%;
-  display: flex;
-
-  padding-top: 100px;
-  opacity: 0.5;
-  flex-direction: column;
-  margin-inline: auto;
-}
-
-.span1 {
-  display: flex;
-  gap: 30px;
-  padding-bottom: 30px;
+#box1 {
+  margin-top: 60px;
+  width: 850px;
 }
 .dx2 {
   display: flex;
@@ -47,23 +18,71 @@ footer {
 
   align-items: center;
 }
-
+.nav {
+  background-color: #212529;
+  justify-content: space-between;
+  color: white;
+}
+.dxx2 {
+  display: flex;
+  color: white;
+}
 @media only screen and (max-width: 900px) {
   .dx {
     display: none;
   }
 }
-.box1 {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
+
 body {
   background-color: white;
 }
 li {
   color: white;
 }
-.nav {
-  background-color: #212529;
+main {
+  background-color: white;
+}
+#box3 {
+  display: flex;
+
+  justify-content: space-between;
+}
+#box4 {
+  display: flex;
+
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.card {
+  display: flex;
+  background-color: red;
+}
+#box5 {
+  display: flex;
+  flex-direction: row-reverse;
+  border-bottom: 1px solid grey;
+}
+#box6 {
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+}
+#box8 {
+  border-bottom: 1px solid grey;
+  display: flex;
+  flex-direction: row-reverse;
+}
+#box10 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+#box11 {
+  border-bottom: 1px solid grey;
+}
+.p1 {
+  color: blue;
+}
+#box12 {
+  border-top: 1px solid grey;
+  display: flex;
 }
