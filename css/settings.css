@@ -41,6 +41,7 @@ li {
 }
 main {
   background-color: white;
+  padding-bottom: 80px;
 }
 #box3 {
   display: flex;
@@ -76,13 +77,30 @@ main {
   display: flex;
   flex-direction: row-reverse;
 }
-#box11 {
-  border-bottom: 1px solid grey;
+#box14 {
+  border-top: 1px solid grey;
 }
 .p1 {
-  color: blue;
+  font-weight: 500;
+  color: #3387db;
 }
 #box12 {
   border-top: 1px solid grey;
   display: flex;
+}
+#btn3 {
+  background-color: rgb(168, 168, 168);
+  border-radius: 0px;
+  width: 180px;
+  border: none;
+  color: black;
+  opacity: 0.7;
+  -webkit-box-shadow: 5px 5px 5px #dedede;
+}
+#p3 {
+  color: grey;
+  opacity: 0.8;
+}
+p {
+  font-weight: 500;
 }
